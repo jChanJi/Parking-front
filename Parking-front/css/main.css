@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#ffffff;
+}
+header{
+}
+.top_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/top.jpg");
+    background-size: 100% 100%;
+}
+.name{
+    width:100%;
+    height: 100px;
+}
+table{
+    width: 100%;
+height: auto;
+    text-align: center;
+}
+table thead tr th{
+    text-align: center;
+}
+table .panel{
+    padding: 4px;
+}
+.content{
+    width: auto;
+    height: auto;
+
+}
+.row{
+    padding-bottom: 20px;
+}
+.block{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.col-md-6{
+    background: #ffffff;
+    border: solid 1px #aaaaaa;
+    box-shadow: 2px 2px 5px 2px #aaaaaa;
+    border-radius: 4px;
+    height: auto;
+}
+
+.col_head{
+    width: auto;
+    height: auto;
+    overflow: auto;
+    vertical-align: middle;
+}
+.col-md-6 h4{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid 1px #aaaaaa;
+}
+.col-md-6 h4 span{
+    width: 50%;
+    float: right;
+    color: #59ff7a;
+    text-align: center;
+}
+
+.input-group-sm {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    width: 300px;
+    float: right;
+
+}
+
+.pagination_set{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.panel-heading{
+    overflow: hidden;
+    text-align: center;
+}
+.panel-heading p{
+    float: left;
+    width: 100px;
+    height: auto;
+    font-size: 14pt;
+}
+.panels{
+    width: 50%;
+    float: left;
+}
+.panel h5{
+    text-align: center;
+}
+.input_two{
+    float: right;
+    width: 400px;
+}
+.three_labels{
+    width: 100%;
+    height: auto;
+}
+.three_labels label {
+    padding: 6px;
+    border: solid 1px #000000;
+    border-radius: 4px;
+
+}
+.three_labels span{
+ font-size: 16pt;
+    font-weight: bold;
+    color: #d43f3a;
+    margin-left: 50px;
+}
+table label{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin: 0;
+}
+tr:nth-child(odd) label{
+    background: #2bff4a;
+}
+
+tr:nth-child(even) label{
+    background: #ff2428;
+}
+.col_four {
+    width: auto;
+   height: 89%;
+}
+.col{
+    width: auto;
+    height: 25%;
+}
+.col_pice{
+    width: 25%;
+    height:100%;
+    float: left;
+}
+.col_title{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.col_body{
+    width: 100%;
+    height: 80%;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#000000;
+
+}
+
+.bottom{
+    width: 100%;
+    height: auto;
+}
+.bottom p{
+    text-align: center;
+    color: #aaaaaa;
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hello Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <div class="top_img">
+        <table style="position:absolute;bottom: 0">
+            <tbody>
+            <tr>
+                <td>
+                    <div class="name">
+                        <div style="font-size: 45pt">ChanJi  Parking</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="name" style="font-size: 20pt">
+                        <div>PHONE:8888888</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="name">
+
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</header>
+<div class="container">
+
+    <div class="content">
+        <div class="row">
+        <div class="col-md-6 height_stand">
+            <div class="col_head">
+                <h4 style="color: #2dfcff">车辆列表</h4>
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" placeholder="请输入车牌号或者车位号">
+                    <span class="input-group-addon">GO!</span>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>车牌号</th>
+                    <th>入场时间</th>
+                    <th>车位</th>
+                    <th>累计小时</th>
+                    <th>计费</th>
+                    <th>处理人</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+                <tr>
+                    <td>A888888</td>
+                    <td>2016-11-12-12:00</td>
+                    <td>001</td>
+                    <td>1.5h</td>
+                    <td>6￥</td>
+                    <td>小刚</td>
+                </tr>
+
+                </tbody>
+            </table>
+            <div class="pagination_set">
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h4 style="color: #ff75a1">车位图</h4>
+            <div class="table-responsive">
+          <table class="table table-condensed" style="border-bottom: solid 3px #aaaaaa">
+              <thead>
+              <tr>
+                  <th>总车位</th>
+                  <th>当前空位</th>
+                  <th>停泊数</th>
+                  <th>预约人数</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td><span class="panel" style="background: #2dfcff">200</span></td>
+                  <td><span class="panel" style="background: #ff75a1">100</span></td>
+                  <td><span class="panel" style="background: #fff273">100</span></td>
+                  <td><span class="panel" style="background: #59ff7a">20</span></td>
+              </tr>
+              </tbody>
+          </table>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <p>查看车位图</p>
+                        <div class="input-group input_two">
+                            <input class="form-control" placeholder="请输入车位区号A-J">
+                            <span class="input-group-addon">GO!</span>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="three_labels">
+                            <label style="background: #2bffee">空位：10</label>
+                            <span>车位区号:A</span>
+                            <label style="background: #2bff4a;float: right;">无车</label>
+                            <label style="background: #ff2428;float: right;margin-right: 20px">有车</label>
+                        </div>
+                        <div class="table-responsive">
+                       <table class="table">
+                           <tbody>
+                           <tr>
+                               <td><label>1</label></td>
+                               <td><label>2</label></td>
+                               <td><label>3</label></td>
+                               <td><label>4</label></td>
+                               <td><label>5</label></td>
+                           </tr>
+                           <tr>
+                               <td><label>6</label></td>
+                               <td><label>7</label></td>
+                               <td><label>8</label></td>
+                               <td><label>9</label></td>
+                               <td><label>10</label></td>
+                           </tr>
+                           <tr>
+                               <td><label>11</label></td>
+                               <td><label>12</label></td>
+                               <td><label>13</label></td>
+                               <td><label>14</label></td>
+                               <td><label>15</label></td>
+                           </tr>
+                           <tr>
+                               <td><label>16</label></td>
+                               <td><label>17</label></td>
+                               <td><label>18</label></td>
+                               <td><label>19</label></td>
+                               <td><label>20</label></td>
+                           </tr>
+
+                           </tbody>
+                       </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <h4 ><span style="color: #fff273">车辆入场</span><span>车辆出场</span></h4>
+
+
+                <div class="panels">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h5 class="panel-title">入场车牌号</h5>
+                    </div>
+                    <div class="panel-body">
+                        <h5>A88888</h5>
+                    </div>
+                </div>
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h5 class="panel-title">入场日期时间</h5>
+                    </div>
+                    <div class="panel-body">
+                        <h5>2016-11-3&nbsp;&nbsp;&nbsp;13:00</h5>
+                    </div>
+                </div>
+                <div class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h5 class="panel-title">指定车位</h5>
+                    </div>
+                    <div class="panel-body">
+                        <h5>40</h5>
+                    </div>
+                </div>
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h5 class="panel-title">预约时长</h5>
+                    </div>
+                    <div class="panel-body">
+                        <h5>2h</h5>
+                    </div>
+                </div>
+                    </div>
+                <div class="panels">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">出场车牌号</h5>
+                        </div>
+                        <div class="panel-body">
+                            <h5>A5653734</h5>
+                        </div>
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">入场日期时间</h5>
+                        </div>
+                        <div class="panel-body">
+                            <h5>1016-11-3&nbsp;&nbsp;&nbsp;11:00</h5>
+                        </div>
+                    </div>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">累计时间</h5>
+                        </div>
+                        <div class="panel-body">
+                            <h5>3h</h5>
+                        </div>
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">计费金额</h5>
+                        </div>
+                        <div class="panel-body">
+                            <h5>30￥</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4 style="color: #652cff">车辆所在区状况</h4>
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" placeholder="请输入车牌号、车区或值班人">
+                    <span class="input-group-addon">GO!</span>
+                </div>
+                <div class="col_four">
+                    <div class="col">
+                        <div class="col_pice">
+
+                        </div>
+                        <div class="col_pice"></div>
+                        <div class="col_pice"></div>
+                        <div class="col_pice">
+
+                                <div class="col_title" style="color: #652cff">值班人</div>
+                                <div class="col_body" style="background: #652cff">
+                                    <table style="width: 100%;height: 100%">
+                                        <tr>
+                                            <td align="center">
+                                                小王
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="col_pice"></div>
+                        <div class="col_pice">
+
+                        </div>
+                        <div class="col_pice">
+                                <div class="col_title" style="color: #2bffee">车位情况</div>
+                                <div class="col_body" style="background: #2bffee">
+                                    <table style="width: 100%;height: 100%">
+                                        <tr>
+                                            <td align="center">
+                                              5空位
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                        </div>
+                        <div class="col_pice"></div>
+                    </div>
+                    <div class="col">
+                        <div class="col_pice"></div>
+                        <div class="col_pice">
+
+                                <div class="col_title"  style="color: #59ff7a">车位</div>
+                                <div class="col_body" style="background: #59ff7a">
+                                    <table style="width: 100%;height: 100%">
+                                        <tr>
+                                            <td align="center">
+                                                A05
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                        </div>
+                        <div class="col_pice"></div>
+                        <div class="col_pice"></div>
+                    </div>
+                    <div class="col">
+                        <div class="col_pice">
+                            <div class="col_title"  style="color:#ff75a1;">车牌</div>
+                            <div class="col_body" style="background:#ff75a1;">
+                                <table style="width: 100%;height: 100%">
+                                <tr>
+                                    <td align="center">
+                                        A895989
+                                    </td>
+                                </tr>
+                            </table></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <div class="bottom">
+        <p>版权所有，请勿侵权</p>
+        <p>作者：ChanJi</p>
+    </div>
+</div>
+<script src="../js/jquery-3.0.0.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script>
+    $('.col-md-6').css("height",$('.height_stand').height())
+</script>
+</body>
+</html>
